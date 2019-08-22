@@ -82,6 +82,12 @@ func didFetch(forecast: WeatherForecast) {
 ```
 
 ## FAQ
+### Is there a sample app?
+Yes! and it is located [in this repo](https://github.com/mobiten/MultiplexerController-Sample-WeatherForecast).
+<p align="center">
+  <img width="160 " height="348" src="https://raw.githubusercontent.com/mobiten/MultiplexerController-Sample-WeatherForecast/master/app.gif">
+</p>
+
 ### Why can't I subclass MultiplexerController?
 When possible, you should always prefer composition over inheritance. If you want to use MultiplexerController, embed it in another container or just directly push it to your navigation stack.
 
